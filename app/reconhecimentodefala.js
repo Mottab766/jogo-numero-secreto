@@ -3,6 +3,7 @@
 //https://www.sitepoint.com/introducing-web-speech-api/
 
 const elementoChute = document.getElementById('chute')
+const encerrar = document.getElementById('encerrar')
 
 //comando abaixo ativa a mesma, controla também a linguagem esta em portugues
 
@@ -32,6 +33,10 @@ window.SpeechRecognition =
     <div>Você disse:<div>
     <span class="box">${chute}<span>
     `
+    encerrar.innerHTML = `
+    <h3>Diga "Game Over" para encerrar o jogo!</h3>
+    `
+
     
   }
 //faz com que o jogo não pare e continue até acertar o número

@@ -52,3 +52,17 @@ h3 {
     margin-top: 20px;
     font-family: var(--font-family);
 }
+
+.encerrrar {
+    margin-top: 30px;
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .final{
+    margin-bottom: 10px;
+  }
